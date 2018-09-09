@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Snopes.com</ShortName>
+  <LongName>Snopes.com Web Search</LongName>
+  <Description>Search for fact checking on Snopes.</Description>
+  <Tags>fact-check hoax urban legends folklore myths rumors misinformation</Tags>
+
+  <Attribution>
+    Urban Legends Reference Pages© 1995- by Snopes.com
+  </Attribution>
+
+  <Language>en-us</Language>
+
+  <Image width="64" height="64" type="image/png">data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAYFBMVEUAAQADAAUAAgUJAQAYFA0hHRAtKBk8NRlSSS5dUSp5ajZ0cGCJe0mMhG+fjka9qVGnqabAs47TvFrmy17T1dL32mn43GH+22L831z54oP+5Gj65pr967j57rj79dn9/vpviPoTAAACmklEQVR42u3W2Z7yKBCG8beqspiMhplkAEVo7/8uB61eXHBM4+n3nPrjT5kd7s3+AGsA7/2bE4Q3J5gb8w7gZwFNvh4wwpSFasCAGEyYnK8CJkZOhRpgImFigKHCL4GwxXVjsGYcnV8PjGBcRR2YsV0/gWG5ARgEFoyrAdszHiNMfgUQztn2UWCApv8FfFimcei7tuuH8ghZCE8B7+YexMxC51ACBDDPgGB6gIhFCLkSoL+bJ8CEVQnL7AtAGO43ZRQjxs4WgIEFDDCj6fq+bxswCwoxb1I62ntguuwvjM28WO+dW+apRfFI7lKMKR72N4AVIgjQzcE5r5f8PpiuAPyVYu4yhP8BBmaAMGT2uv4R2J3iVwfnv4ClEYDROeuuW1rBXX+fTh+6PKV4tApYa/R4Le6u4fbEUF7/BWgKuDAix5twD4SB7/fPQHoE+gtQeuz01+fy39O5WAA6nCs+vzf36/Ugrga87aA1ul4HKP+FrXeFsiAANYX9v4C9HkR0wZVaWhC6FD/y8ftIJcB5gxxjKgJ+aSivT+ly7ouAWxpiADKXX0Hz5n7hPeAGCJghpjxDjK8A21AWBDRY7x7GsDG9BGYhgj64F3ff4TXgnSHW9yA3ow23AxxfAJppmVifZDLO18A+ai8Abzf6L0BMaM3PFDatAfz5ud6BmEWfp91k/ae8ZgLNmgZC0EiU2B9WArqb6aGBBZ1xueNaQAtzD6Lrj5u4HtD8shUVMjQEm34JeOf3dmxAzMgNh98C2jJCAexiqgFcMI0CiLEK0Jv8bGyqJlABDAgqJ/DOTwRA+J8KQAt6GHapFtiP+kKuBvzECqRqQCeI6b2/sKsGQotz9WfBAGBQNaCvRUisBUa6ALtUByw9CQFoU3zaf2ZMLfx8DeJQAAAAAElFTkSuQmCC</Image>
+  <Image width="16" height="16" type="image/vnd.microsoft.icon">data:application/octet-stream;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABBgUAEy0zAB1CTABDTU4ANVJaADVqeQBph5EAQIqfAEeetQCTvs0AW87oAGLc+QCH5fwAuOv9APP9/gAAAAAAu7u7twbd3d27u7u7A93d3bu7u7oD3d3du7u7oAnd3d27u4IAjN3d3buhAIu83d3duxCLu6rd3d26B7u7sW7d3boHu7oQA+3duxCLqAAAPdy7oAAAAAAFu7u7hSAAACu7u7u7gABVu7u7u7u4Bbu7u7u7u7uru7u7u7u7u7u7u7sAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</Image>
+
+  <InputEncoding>UTF-8</InputEncoding>
+
+
+  <Url type="application/rss+xml"
+       rel="results"
+       template="http://www.snopes.com/?q={searchTerms}&amp;feed=rss2"/>
+  <Url type="text/html"
+       template="https://www.snopes.com/?s={searchTerms}"/>
+
+  <Query role="example" searchTerms="cat" />
+
+  <Developer>Fabien Basmaison</Developer>
+</OpenSearchDescription>
